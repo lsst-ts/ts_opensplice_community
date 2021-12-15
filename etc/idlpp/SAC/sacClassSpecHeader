@@ -1,0 +1,10 @@
+#ifndef $(basename_upper)SACDCPS_H
+#define $(basename_upper)SACDCPS_H
+
+#include "dds_dcps.h"
+#include "$(basename)Dcps.h"
+
+#ifndef DDS_API
+#define DDS_API
+#endif
+
