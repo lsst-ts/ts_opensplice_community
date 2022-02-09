@@ -1,4 +1,4 @@
-echo "<<< Vortex OpenSplice HDE Release 6.9.210323OSS For x86_64.linux-dev, Date 2021-08-13 >>>"
+echo "<<< Vortex OpenSplice HDE Release 6.9.220208OSS For x86_64.linux-dev, Date 2022-02-08 >>>"
 if [ "${SPLICE_ORB:=}" = "" ]
 then
     SPLICE_ORB=DDS_OpenFusion_1_6_1
@@ -26,4 +26,5 @@ fi
 OSPL_TMPL_PATH=$OSPL_HOME/etc/idlpp
 . $OSPL_HOME/etc/java/defs.$SPLICE_JDK
 export OSPL_HOME PATH LD_LIBRARY_PATH CPATH OSPL_TMPL_PATH VORTEX_DIR
-export OSPL_RELEASE=6.9.210323
+export OSPL_RELEASE=6.9.220208
+
